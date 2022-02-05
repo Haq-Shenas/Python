@@ -199,7 +199,7 @@ def sendGoogleMail(pngfiles):
     # me == the sender's email address
     # family = the list of all recipients' email addresses
     msg['From'] = 'tarigh.nejat@gmail.com'
-    to = ["tarigh.nejat@bat.at", "tarigh.nejat@live.at","khato786@hotmail.com"]
+    to = ["tarigh.nejat@bat.at", "tarigh.nejat@live.at"]
     msg['To'] = ', '.join(to)
     msg.preamble = 'Transporter braucht Hilfe...'
 
